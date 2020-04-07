@@ -1,0 +1,38 @@
+body, html{
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    height: 100%;
+    color: #777;
+    
+}
+
+.conteudo {
+    color: #777;
+    background-color: black;
+    text-align: justify;
+    padding: 50px 80px;
+    
+}
+h3{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+
+/*EFEITO PARALLAX*/
+
+.caixa1, .caixa2{
+    border: 1px solid red;
+    height: 100%;
+    background-size: auto;
+}
+
+.caixa1{
+    background: url(../View/imagens/imagem1.jpg) no-repeat fixed;
+    background-size: 100%;
+    
+}
+.caixa2{
+    background: url(../View/imagens/imagem2.jpg) no-repeat fixed;
+}
